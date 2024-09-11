@@ -3,7 +3,7 @@
 public class RepeatBackgroundX : MonoBehaviour
 {
     [Header("References")]
-    public BoxCollider boxCollider;
+    [SerializeField] private BoxCollider boxCollider;
 
     private Vector3 startPos;
     private float repeatWidth;
